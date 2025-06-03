@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Dashboard - LEADS MedExpress</title>
+    <link rel="stylesheet" href="STYLE.css">
+    <style>
+        /* Extra dashboard styles */
+        .dashboard-header {
+            text-align: center;
+            margin-bottom: 24px;
+        }
+        .dashboard-cards {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            justify-content: center;
+            margin-bottom: 32px;
+        }
+        .card {
+            background: #f4f6fa;
+            border-radius: 8px;
+            box-shadow: 0 1px 4px rgba(44, 62, 80, 0.07);
+            padding: 24px 32px;
+            min-width: 220px;
+            text-align: center;
+        }
+        .card h3 {
+            color: #2a4d69;
+            margin-bottom: 8px;
+        }
+        .dashboard-actions {
+            text-align: center;
+        }
+        .dashboard-actions .btn {
+            margin: 0 8px 8px 0;
+        }
+        @media (max-width: 700px) {
+            .dashboard-cards {
+                flex-direction: column;
+                align-items: center;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header class="dashboard-header">
+            <h1>Welcome to Your Dashboard</h1>
+            <p>Manage your medical deliveries and profile information.</p>
+        </header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="dashboard.html">Dashboard</a></li>
+                <li><a href="order.html">Order</a></li>
+                <li><a href="profile.html">Profile</a></li>
+                <li><a href="logout.html">Logout</a></li>
+            </ul>
+        </nav>
+        <main>
+            <div class="dashboard-cards">
+                <div class="card">
+                    <h3>Active Orders</h3>
+                    <p>2</p>
+                </div>
+                <div class="card">
+                    <h3>Order History</h3>
+                    <p>View your past deliveries</p>
+                </div>
+                <div class="card">
+                    <h3>Profile</h3>
+                    <p>Update your patient information</p>
+                </div>
+            </div>
+            <div class="dashboard-actions">
+                <a href="order.html" class="btn">Place New Order</a>
+                <a href="profile.html" class="btn">View Profile</a>
+                <a href="logout.html" class="btn">Logout</a>
+            </div>
+        </main>
+        <footer>
+            <p>&copy; 2025 LEADS MedExpress. All rights reserved.</p>
+        </footer>
+    </div>
+</body>
+</html>
