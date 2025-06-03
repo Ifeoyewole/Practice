@@ -1,0 +1,44 @@
+body {
+  font-family: 'Comic Sans MS', cursive, sans-serif;
+  background: linear-gradient(135deg, #ffccff, #ccffff);
+  text-align: center;
+  padding: 50px;
+  color: #333;
+}
+
+.card {
+  background: white;
+  border-radius: 20px;
+  padding: 40px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+  display: inline-block;
+  max-width: 600px;
+}
+
+h1 {
+  color: #ff3399;
+  font-size: 3em;
+}
+
+p {
+  font-size: 1.5em;
+}
+
+img {
+  max-width: 100%;
+  border-radius: 15px;
+  margin-top: 20px;
+}
+.memories-btn {
+    background-color: #ff3399;
+    color: white;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 10px;
+    font-size: 1.2em;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+.memories-btn:hover {
+    background-color: #ff66b3;
+}
